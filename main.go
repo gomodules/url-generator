@@ -8,7 +8,8 @@ import (
 
 func main() {
 	var passwd string
-	flag.StringVar(&passwd, "token", "", "Zepto mail token")
+	flag.StringVarP(&passwd, "password", "p", "", "Zepto mail token")
+	flag.Parse()
 
 	var u url.URL
 	u.Scheme = "starttls"
