@@ -1,4 +1,4 @@
-# smtprelay-auth-generator
+# url-generator
 
 ```
 go run main.go -p ****
