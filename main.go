@@ -2,8 +2,9 @@ package main
 
 import (
 	"fmt"
-	flag "github.com/spf13/pflag"
 	"net/url"
+
+	flag "github.com/spf13/pflag"
 )
 
 func main() {
