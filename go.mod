@@ -1,4 +1,4 @@
-module go.bytebuilders.dev/smtprelay-auth-generator
+module gomodules.xyz/url-generator
 
 go 1.22.0
 
