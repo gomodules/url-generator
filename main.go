@@ -13,7 +13,7 @@ func main() {
 	)
 	flag.StringVarP(&scheme, "scheme", "s", "", "URL scheme")
 	flag.StringVarP(&host, "host", "h", "", "URL host")
-	flag.StringVarP(&passwd, "user", "u", "", "URL username")
+	flag.StringVarP(&user, "user", "u", "", "URL username")
 	flag.StringVarP(&passwd, "password", "p", "", "URL password")
 	flag.StringVar(&path, "path", "", "URL path")
 	flag.StringVarP(&rawQuery, "query", "q", "", "URL query string")
